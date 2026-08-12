@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/librarymanagement
+    username: root
+    password: Pavan@8333
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: 7fK9mQ2xV8pL4zR6nT1wY5uI3oP7aS9dC4eG8hJ2kN6mX0qB
+  expiration: 3600000
