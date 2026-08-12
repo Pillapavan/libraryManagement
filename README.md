@@ -65,6 +65,8 @@ src/main/java/com/java/libraryManagement
 │
 └── Security
     └── SecurityConfig
+```
+
 
 ## Main API Features
 
